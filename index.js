@@ -15,10 +15,6 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": 0,
     "no-unused-vars": 0,
     "@typescript-eslint/no-unused-vars": 0,
-    "@typescript-eslint/no-unused-vars-experimental": [
-      "error",
-      { ignoreArgsIfArgsAfterAreUsed: true },
-    ],
     "@typescript-eslint/prefer-interface": 0,
     "@typescript-eslint/no-use-before-define": [
       "error",
