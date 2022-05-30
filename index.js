@@ -32,15 +32,15 @@ module.exports = {
     "@typescript-eslint/no-unused-expressions": 2,
     "@typescript-eslint/ban-ts-comment": 0,
     "@typescript-eslint/camelcase": 0,
+    '@typescript-eslint/no-unnecessary-type-constraint': 0,
   },
   overrides: [
     {
-      files: ["**/*.test.{ts,tsx}", "**/testUtils.{ts,tsx}"],
+      files: ["**/*.test.{ts,tsx}"],
       env: {
         jest: true,
       },
       rules: {
-        "@typescript-eslint/no-explicit-any": 0,
         "@typescript-eslint/no-object-literal-type-assertion": 0,
       },
     },
