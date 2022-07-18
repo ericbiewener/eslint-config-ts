@@ -33,6 +33,7 @@ module.exports = {
     "@typescript-eslint/ban-ts-comment": 0,
     "@typescript-eslint/camelcase": 0,
     '@typescript-eslint/no-unnecessary-type-constraint': 0,
+    '@typescript-eslint/no-var-requires': 0,
   },
   overrides: [
     {
